@@ -16,4 +16,7 @@ The structure is as follows:\
 
 <b>Mutual information optimized symbol probabilities of 8-PAM constellation for the AWGN channel under a peak power constraint. The probabilities are shown for two peak SNR values where the optimal distribution does not have a Gaussian Bell shape. The symbol probabilities obtained through the weight learning method match well with those obtained using the Blahut-Arimoto algorithm.(./plots/AWGN_PPC_PAM8_px.png)</b>![](./plots/AWGN_PPC_PAM8_px.png)
 
+
+<b>Example of probabilities $\tilde{p}_m$ and $q_m$ of a constellation point evolving during optimization. The probability $q_m$ remains constant during an epoch while $\tilde{p}_m$ updates.(./plots/weight_learning_visualized.png)</b>![](./plots/weight_learning_visualized.png)
+
 <b>Gap of MI to Shannon capacity for uniform and PCS 256-QAM. The symbol probabilities have been optimized to maximize BMI for the AWGN channel under the average power constraint.(./plots/AWGN_APC_256QAM_MI.png)</b>![](./plots/AWGN_APC_256QAM_MI.png)
